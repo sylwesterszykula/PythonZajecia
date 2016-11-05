@@ -1,0 +1,1 @@
+print "Witaj w pythonie"
