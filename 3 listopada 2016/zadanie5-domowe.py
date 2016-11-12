@@ -101,7 +101,8 @@ while koniec_petli_while:
         print 'Wybrales 4 - wyswietlanie wszystkich uzytkownikow'
 
         for i in list_adresow:
-            print '{0:10}  {1:10}  {2:10d}  {3:10d}  {4:10}'.format(i.imie, i.nazwisko, i.pesel, i.nr_telefonu, i.email)
+            if i.imie != '':
+                print '{0:10}  {1:10}  {2:10d}  {3:10d}  {4:10}'.format(i.imie, i.nazwisko, i.pesel, i.nr_telefonu, i.email)
 
     if sterowanie_petli_while == 5:
         print 'Wybrales 5, Czesc!'
