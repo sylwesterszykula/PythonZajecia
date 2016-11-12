@@ -10,6 +10,9 @@ for i in range(2,wielkosc_tablicy):
     for j in xrange(i*2, wielkosc_tablicy, i):
         tablica[j] = True
 
+lista = []
 for i in tablica:
     if tablica[i] == False:
-        print i
+        lista.append(i)
+print lista
+
