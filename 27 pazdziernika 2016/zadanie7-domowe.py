@@ -1,4 +1,5 @@
-wielkosc_tablicy = 61
+wielkosc_tablicy = input("Prosze podac gorny zakres przedzialu ")
+wielkosc_tablicy = wielkosc_tablicy + 1
 tablica = dict()
 
 for i in range(2,wielkosc_tablicy):
